@@ -1,0 +1,35 @@
+:root{
+    --primary:#EEBF00;
+    --secondary:#232838;
+    --ternary:#6C6C6C;
+    --danger:#FE4545;
+    --pure:#FEFEFE;
+    --light:#F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#20333F;
+ }
+.cart-btn{
+    padding: .5rem;
+    color: white;
+    border: 1px solid white;
+    background-color: var(--secondary);
+    border-radius: 5px;
+}
+.food-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#food-icon{
+    height: 41px;
+}
+#food-text{
+   padding-left: .7rem;
+   font-size: 25px;
+}
+Section div h1{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 1rem;
+    border-bottom: 1px solid var(--secondary);
+}
